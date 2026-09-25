@@ -3,8 +3,8 @@ const lists = document.querySelector("#infi-list");
 
 let count = 1
 
-function addItems(num = 2){
-for(let i = 0;i<num;i++){
+function addItems(){
+for(let i = 0;i<10;i++){
 	const li = document.createElement("li");
 	li.innerHTML = `List Item ${count}`
 	lists.appendChild(li);
